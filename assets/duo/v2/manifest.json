@@ -1,0 +1,92 @@
+[
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_fixpack_v2/assets/wika/wika_idle.png",
+    "file": "assets/duo/v2/wika/wika_idle.webp",
+    "crop": [
+      124,
+      63,
+      922,
+      1396
+    ],
+    "size": [
+      192,
+      320
+    ],
+    "anchor": {
+      "x": 0.70673,
+      "y": 0.99687
+    },
+    "sourceSha256": "6fed7c9e2b6fee17cf984a824188f7225b711fa838603753ab7be52c66acf56b",
+    "bytes": 27528
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_fixpack_v2/assets/wika/wika_walk.png",
+    "file": "assets/duo/v2/wika/wika_walk.webp",
+    "crop": [
+      62,
+      76,
+      1048,
+      1392
+    ],
+    "size": [
+      240,
+      320
+    ],
+    "anchor": {
+      "x": 0.72651,
+      "y": 0.99687
+    },
+    "sourceSha256": "2ea4a78eb51fa3e8f2468e46b91e567822752f0750b3246a47c599e079589e41",
+    "bytes": 33082
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_fixpack_v2/assets/wika/wika_jump.png",
+    "file": "assets/duo/v2/wika/wika_jump.webp",
+    "crop": [
+      44,
+      42,
+      1025,
+      1358
+    ],
+    "size": [
+      239,
+      320
+    ],
+    "anchor": {
+      "x": 0.53464,
+      "y": 0.99687
+    },
+    "sourceSha256": "0d00aae4c73b7d917aac752d47d12cd5a53ae7d4013a0b4d751fa42c280076af",
+    "bytes": 32790
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_fixpack_v2/assets/wika/wika_push.png",
+    "file": "assets/duo/v2/wika/wika_push.webp",
+    "crop": [
+      51,
+      89,
+      1065,
+      1380
+    ],
+    "size": [
+      251,
+      320
+    ],
+    "anchor": {
+      "x": 0.38908,
+      "y": 0.99687
+    },
+    "sourceSha256": "dc90f9ea61f752d1ac5a79cbfbe1726d60b254d68dac82047f375951bdf78188",
+    "bytes": 32830
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_fixpack_v2/assets/cover/wika_michal_cover.png",
+    "file": "assets/duo/v2/cover.webp",
+    "size": [
+      1000,
+      563
+    ],
+    "sourceSha256": "3f63d666a4d9560fac907b366fcba22ac0a1d5f93e1717cba49c066f7a0629de",
+    "bytes": 215724
+  }
+]

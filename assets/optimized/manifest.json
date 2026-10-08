@@ -1,0 +1,572 @@
+[
+  {
+    "key": "wikaIdle",
+    "source": "assets/prepared/characters/wika/wika_idle.png",
+    "original_dimensions": [
+      308,
+      694
+    ],
+    "source_bytes": 262487,
+    "render_box": [
+      100,
+      180
+    ],
+    "output": "assets/optimized/characters/wika/wika_idle.webp",
+    "optimized_dimensions": [
+      170,
+      384
+    ],
+    "optimized_bytes": 22912
+  },
+  {
+    "key": "wikaRun",
+    "source": "assets/prepared/characters/wika/wika_run.png",
+    "original_dimensions": [
+      421,
+      647
+    ],
+    "source_bytes": 315971,
+    "render_box": [
+      68,
+      120
+    ],
+    "output": "assets/optimized/characters/wika/wika_run.webp",
+    "optimized_dimensions": [
+      250,
+      384
+    ],
+    "optimized_bytes": 34586
+  },
+  {
+    "key": "wikaJump",
+    "source": "assets/prepared/characters/wika/wika_jump.png",
+    "original_dimensions": [
+      477,
+      585
+    ],
+    "source_bytes": 345681,
+    "render_box": [
+      80,
+      110
+    ],
+    "output": "assets/optimized/characters/wika/wika_jump.webp",
+    "optimized_dimensions": [
+      313,
+      384
+    ],
+    "optimized_bytes": 40344
+  },
+  {
+    "key": "wikaHappy",
+    "source": "assets/prepared/characters/wika/wika_happy.png",
+    "original_dimensions": [
+      397,
+      713
+    ],
+    "source_bytes": 318526,
+    "render_box": [
+      120,
+      180
+    ],
+    "output": "assets/optimized/characters/wika/wika_happy.webp",
+    "optimized_dimensions": [
+      214,
+      384
+    ],
+    "optimized_bytes": 27968
+  },
+  {
+    "key": "wikaWave",
+    "source": "assets/prepared/characters/wika/wika_wave.png",
+    "original_dimensions": [
+      343,
+      694
+    ],
+    "source_bytes": 271601,
+    "render_box": [
+      100,
+      205
+    ],
+    "output": "assets/optimized/characters/wika/wika_wave.webp",
+    "optimized_dimensions": [
+      190,
+      384
+    ],
+    "optimized_bytes": 25312
+  },
+  {
+    "key": "michalIdle",
+    "source": "assets/prepared/characters/michal/michal_idle.png",
+    "original_dimensions": [
+      226,
+      665
+    ],
+    "source_bytes": 213939,
+    "render_box": [
+      46,
+      66
+    ],
+    "output": "assets/optimized/characters/michal/michal_idle.webp",
+    "optimized_dimensions": [
+      131,
+      384
+    ],
+    "optimized_bytes": 19944
+  },
+  {
+    "key": "michalBouquet",
+    "source": "assets/prepared/characters/michal/michal_bouquet.png",
+    "original_dimensions": [
+      327,
+      668
+    ],
+    "source_bytes": 252195,
+    "render_box": [
+      100,
+      205
+    ],
+    "output": "assets/optimized/characters/michal/michal_bouquet.webp",
+    "optimized_dimensions": [
+      188,
+      384
+    ],
+    "optimized_bytes": 23630
+  },
+  {
+    "key": "michalWave",
+    "source": "assets/prepared/characters/michal/michal_wave.png",
+    "original_dimensions": [
+      297,
+      658
+    ],
+    "source_bytes": 233841,
+    "render_box": [
+      90,
+      155
+    ],
+    "output": "assets/optimized/characters/michal/michal_wave.webp",
+    "optimized_dimensions": [
+      173,
+      384
+    ],
+    "optimized_bytes": 23202
+  },
+  {
+    "key": "heart",
+    "source": "assets/prepared/items/hearts/heart_medium.png",
+    "original_dimensions": [
+      364,
+      315
+    ],
+    "source_bytes": 114125,
+    "render_box": [
+      105,
+      105
+    ],
+    "output": "assets/optimized/items/hearts/heart_medium.webp",
+    "optimized_dimensions": [
+      128,
+      111
+    ],
+    "optimized_bytes": 5458
+  },
+  {
+    "key": "bigHeart",
+    "source": "assets/prepared/items/hearts/heart_big.png",
+    "original_dimensions": [
+      629,
+      505
+    ],
+    "source_bytes": 272579,
+    "render_box": [
+      105,
+      85
+    ],
+    "output": "assets/optimized/items/hearts/heart_big.webp",
+    "optimized_dimensions": [
+      128,
+      103
+    ],
+    "optimized_bytes": 5496
+  },
+  {
+    "key": "broken",
+    "source": "items/hearts/heart_broken.png",
+    "original_dimensions": [
+      427,
+      332
+    ],
+    "source_bytes": 165381,
+    "render_box": [
+      48,
+      48
+    ],
+    "output": "assets/optimized/items/hearts/heart_broken.webp",
+    "optimized_dimensions": [
+      128,
+      100
+    ],
+    "optimized_bytes": 6612
+  },
+  {
+    "key": "gift",
+    "source": "assets/prepared/items/gifts/gift_box.png",
+    "original_dimensions": [
+      889,
+      900
+    ],
+    "source_bytes": 779423,
+    "render_box": [
+      140,
+      140
+    ],
+    "output": "assets/optimized/items/gifts/gift_box.webp",
+    "optimized_dimensions": [
+      190,
+      192
+    ],
+    "optimized_bytes": 14212
+  },
+  {
+    "key": "bouquet",
+    "source": "assets/prepared/items/gifts/bouquet_roses.png",
+    "original_dimensions": [
+      883,
+      900
+    ],
+    "source_bytes": 1081979,
+    "render_box": [
+      105,
+      105
+    ],
+    "output": "assets/optimized/items/gifts/bouquet_roses.webp",
+    "optimized_dimensions": [
+      188,
+      192
+    ],
+    "optimized_bytes": 20002
+  },
+  {
+    "key": "letter",
+    "source": "assets/prepared/items/collectibles/love_letter.png",
+    "original_dimensions": [
+      507,
+      408
+    ],
+    "source_bytes": 221269,
+    "render_box": [
+      110,
+      110
+    ],
+    "output": "assets/optimized/items/collectibles/love_letter.webp",
+    "optimized_dimensions": [
+      192,
+      155
+    ],
+    "optimized_bytes": 11018
+  },
+  {
+    "key": "coffee",
+    "source": "assets/prepared/items/collectibles/love_coffee.png",
+    "original_dimensions": [
+      475,
+      426
+    ],
+    "source_bytes": 278649,
+    "render_box": [
+      110,
+      110
+    ],
+    "output": "assets/optimized/items/collectibles/love_coffee.webp",
+    "optimized_dimensions": [
+      192,
+      172
+    ],
+    "optimized_bytes": 14722
+  },
+  {
+    "key": "ticket",
+    "source": "assets/prepared/items/collectibles/ticket_pink.png",
+    "original_dimensions": [
+      352,
+      474
+    ],
+    "source_bytes": 193444,
+    "render_box": [
+      110,
+      110
+    ],
+    "output": "assets/optimized/items/collectibles/ticket_pink.webp",
+    "optimized_dimensions": [
+      143,
+      192
+    ],
+    "optimized_bytes": 12448
+  },
+  {
+    "key": "star",
+    "source": "assets/prepared/items/collectibles/gold_star.png",
+    "original_dimensions": [
+      408,
+      395
+    ],
+    "source_bytes": 164994,
+    "render_box": [
+      110,
+      110
+    ],
+    "output": "assets/optimized/items/collectibles/gold_star.webp",
+    "optimized_dimensions": [
+      192,
+      186
+    ],
+    "optimized_bytes": 12116
+  },
+  {
+    "key": "key",
+    "source": "assets/prepared/items/collectibles/heart_key.png",
+    "original_dimensions": [
+      313,
+      484
+    ],
+    "source_bytes": 153481,
+    "render_box": [
+      110,
+      110
+    ],
+    "output": "assets/optimized/items/collectibles/heart_key.webp",
+    "optimized_dimensions": [
+      124,
+      192
+    ],
+    "optimized_bytes": 11278
+  },
+  {
+    "key": "hedge",
+    "source": "assets/prepared/world/maze/hedge_horizontal.png",
+    "original_dimensions": [
+      731,
+      206
+    ],
+    "source_bytes": 269881,
+    "render_box": [
+      96,
+      22
+    ],
+    "output": "assets/optimized/world/maze/hedge_horizontal.webp",
+    "optimized_dimensions": [
+      256,
+      72
+    ],
+    "optimized_bytes": 14018
+  },
+  {
+    "key": "hedgeVertical",
+    "source": "assets/prepared/world/maze/hedge_vertical.png",
+    "original_dimensions": [
+      175,
+      424
+    ],
+    "source_bytes": 140094,
+    "render_box": [
+      22,
+      96
+    ],
+    "output": "assets/optimized/world/maze/hedge_vertical.webp",
+    "optimized_dimensions": [
+      106,
+      256
+    ],
+    "optimized_bytes": 17184
+  },
+  {
+    "key": "gate",
+    "source": "assets/prepared/world/maze/maze_finish_gate.png",
+    "original_dimensions": [
+      439,
+      413
+    ],
+    "source_bytes": 314754,
+    "render_box": [
+      105,
+      105
+    ],
+    "output": "assets/optimized/world/maze/maze_finish_gate.webp",
+    "optimized_dimensions": [
+      192,
+      181
+    ],
+    "optimized_bytes": 22920
+  },
+  {
+    "key": "platform",
+    "source": "assets/prepared/world/platforms/platform_long.png",
+    "original_dimensions": [
+      900,
+      165
+    ],
+    "source_bytes": 193688,
+    "render_box": [
+      740,
+      42
+    ],
+    "output": "assets/optimized/world/platforms/platform_long.webp",
+    "optimized_dimensions": [
+      512,
+      94
+    ],
+    "optimized_bytes": 22384
+  },
+  {
+    "key": "crate",
+    "source": "assets/prepared/world/platforms/crate.png",
+    "original_dimensions": [
+      240,
+      238
+    ],
+    "source_bytes": 94123,
+    "render_box": [
+      43,
+      43
+    ],
+    "output": "assets/optimized/world/platforms/crate.webp",
+    "optimized_dimensions": [
+      240,
+      238
+    ],
+    "optimized_bytes": 14788
+  },
+  {
+    "key": "flag",
+    "source": "assets/prepared/world/platforms/finish_flag.png",
+    "original_dimensions": [
+      288,
+      342
+    ],
+    "source_bytes": 74988,
+    "render_box": [
+      55,
+      115
+    ],
+    "output": "assets/optimized/world/platforms/finish_flag.webp",
+    "optimized_dimensions": [
+      216,
+      256
+    ],
+    "optimized_bytes": 14236
+  },
+  {
+    "key": "cloud",
+    "source": "assets/prepared/world/decor/cloud_big.png",
+    "original_dimensions": [
+      577,
+      235
+    ],
+    "source_bytes": 117709,
+    "render_box": [
+      155,
+      65
+    ],
+    "output": "assets/optimized/world/decor/cloud_big.webp",
+    "optimized_dimensions": [
+      512,
+      209
+    ],
+    "optimized_bytes": 22760
+  },
+  {
+    "key": "village",
+    "source": "world/decor/village_bg.png",
+    "original_dimensions": [
+      1270,
+      247
+    ],
+    "source_bytes": 430585,
+    "render_box": [
+      720,
+      110
+    ],
+    "output": "assets/optimized/world/decor/village_bg.webp",
+    "optimized_dimensions": [
+      512,
+      100
+    ],
+    "optimized_bytes": 23744
+  },
+  {
+    "key": "arch",
+    "source": "assets/prepared/world/decor/flower_arch.png",
+    "original_dimensions": [
+      516,
+      516
+    ],
+    "source_bytes": 417590,
+    "render_box": [
+      130,
+      130
+    ],
+    "output": "assets/optimized/world/decor/flower_arch.webp",
+    "optimized_dimensions": [
+      512,
+      512
+    ],
+    "optimized_bytes": 126636
+  },
+  {
+    "key": "left",
+    "source": "assets/prepared/ui/btn_left.png",
+    "original_dimensions": [
+      295,
+      258
+    ],
+    "source_bytes": 91179,
+    "render_box": [
+      48,
+      46
+    ],
+    "output": "assets/optimized/ui/btn_left.webp",
+    "optimized_dimensions": [
+      256,
+      224
+    ],
+    "optimized_bytes": 16476
+  },
+  {
+    "key": "right",
+    "source": "assets/prepared/ui/btn_right.png",
+    "original_dimensions": [
+      296,
+      258
+    ],
+    "source_bytes": 91667,
+    "render_box": [
+      48,
+      46
+    ],
+    "output": "assets/optimized/ui/btn_right.webp",
+    "optimized_dimensions": [
+      256,
+      223
+    ],
+    "optimized_bytes": 16116
+  },
+  {
+    "key": "jump",
+    "source": "assets/prepared/ui/btn_jump.png",
+    "original_dimensions": [
+      296,
+      259
+    ],
+    "source_bytes": 91324,
+    "render_box": [
+      48,
+      46
+    ],
+    "output": "assets/optimized/ui/btn_jump.webp",
+    "optimized_dimensions": [
+      256,
+      224
+    ],
+    "optimized_bytes": 16186
+  }
+]

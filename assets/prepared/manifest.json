@@ -1,0 +1,898 @@
+[
+  {
+    "source": "characters/michal/michal_wave.png",
+    "output": "assets/prepared/characters/michal/michal_wave.png",
+    "crop": [
+      7,
+      5,
+      304,
+      663
+    ],
+    "size": [
+      297,
+      658
+    ]
+  },
+  {
+    "source": "characters/michal/michal_jump.png",
+    "output": "assets/prepared/characters/michal/michal_jump.png",
+    "crop": [
+      6,
+      6,
+      415,
+      594
+    ],
+    "size": [
+      409,
+      588
+    ]
+  },
+  {
+    "source": "characters/michal/michal_idle.png",
+    "output": "assets/prepared/characters/michal/michal_idle.png",
+    "crop": [
+      5,
+      5,
+      231,
+      670
+    ],
+    "size": [
+      226,
+      665
+    ]
+  },
+  {
+    "source": "characters/michal/michal_run.png",
+    "output": "assets/prepared/characters/michal/michal_run.png",
+    "crop": [
+      7,
+      9,
+      408,
+      618
+    ],
+    "size": [
+      401,
+      609
+    ]
+  },
+  {
+    "source": "characters/michal/michal_bouquet.png",
+    "output": "assets/prepared/characters/michal/michal_bouquet.png",
+    "crop": [
+      8,
+      5,
+      335,
+      673
+    ],
+    "size": [
+      327,
+      668
+    ]
+  },
+  {
+    "source": "characters/wika/wika_idle.png",
+    "output": "assets/prepared/characters/wika/wika_idle.png",
+    "crop": [
+      14,
+      6,
+      322,
+      700
+    ],
+    "size": [
+      308,
+      694
+    ]
+  },
+  {
+    "source": "characters/wika/wika_run.png",
+    "output": "assets/prepared/characters/wika/wika_run.png",
+    "crop": [
+      15,
+      13,
+      436,
+      660
+    ],
+    "size": [
+      421,
+      647
+    ]
+  },
+  {
+    "source": "characters/wika/wika_jump.png",
+    "output": "assets/prepared/characters/wika/wika_jump.png",
+    "crop": [
+      13,
+      13,
+      490,
+      598
+    ],
+    "size": [
+      477,
+      585
+    ]
+  },
+  {
+    "source": "characters/wika/wika_happy.png",
+    "output": "assets/prepared/characters/wika/wika_happy.png",
+    "crop": [
+      14,
+      11,
+      411,
+      724
+    ],
+    "size": [
+      397,
+      713
+    ]
+  },
+  {
+    "source": "characters/wika/wika_wave.png",
+    "output": "assets/prepared/characters/wika/wika_wave.png",
+    "crop": [
+      14,
+      6,
+      357,
+      700
+    ],
+    "size": [
+      343,
+      694
+    ]
+  },
+  {
+    "source": "items/collectibles/love_letter.png",
+    "output": "assets/prepared/items/collectibles/love_letter.png",
+    "crop": [
+      7,
+      5,
+      514,
+      413
+    ],
+    "size": [
+      507,
+      408
+    ]
+  },
+  {
+    "source": "items/collectibles/ticket_pink.png",
+    "output": "assets/prepared/items/collectibles/ticket_pink.png",
+    "crop": [
+      15,
+      6,
+      367,
+      480
+    ],
+    "size": [
+      352,
+      474
+    ]
+  },
+  {
+    "source": "items/collectibles/love_coffee.png",
+    "output": "assets/prepared/items/collectibles/love_coffee.png",
+    "crop": [
+      16,
+      12,
+      491,
+      438
+    ],
+    "size": [
+      475,
+      426
+    ]
+  },
+  {
+    "source": "items/collectibles/ticket_red.png",
+    "output": "assets/prepared/items/collectibles/ticket_red.png",
+    "crop": [
+      13,
+      6,
+      426,
+      478
+    ],
+    "size": [
+      413,
+      472
+    ]
+  },
+  {
+    "source": "items/collectibles/gold_star.png",
+    "output": "assets/prepared/items/collectibles/gold_star.png",
+    "crop": [
+      6,
+      6,
+      414,
+      401
+    ],
+    "size": [
+      408,
+      395
+    ]
+  },
+  {
+    "source": "items/collectibles/heart_key.png",
+    "output": "assets/prepared/items/collectibles/heart_key.png",
+    "crop": [
+      6,
+      6,
+      319,
+      490
+    ],
+    "size": [
+      313,
+      484
+    ]
+  },
+  {
+    "source": "items/gifts/bouquet_roses.png",
+    "output": "assets/prepared/items/gifts/bouquet_roses.png",
+    "crop": [
+      23,
+      14,
+      1230,
+      1244
+    ],
+    "size": [
+      883,
+      900
+    ]
+  },
+  {
+    "source": "items/gifts/gift_box.png",
+    "output": "assets/prepared/items/gifts/gift_box.png",
+    "crop": [
+      57,
+      62,
+      1191,
+      1210
+    ],
+    "size": [
+      889,
+      900
+    ]
+  },
+  {
+    "source": "items/hearts/heart_orbit.png",
+    "output": "assets/prepared/items/hearts/heart_orbit.png",
+    "crop": [
+      30,
+      16,
+      211,
+      176
+    ],
+    "size": [
+      181,
+      160
+    ]
+  },
+  {
+    "source": "items/hearts/heart_coin.png",
+    "output": "assets/prepared/items/hearts/heart_coin.png",
+    "crop": [
+      22,
+      35,
+      351,
+      392
+    ],
+    "size": [
+      329,
+      357
+    ]
+  },
+  {
+    "source": "items/hearts/heart_shiny.png",
+    "output": "assets/prepared/items/hearts/heart_shiny.png",
+    "crop": [
+      16,
+      27,
+      448,
+      412
+    ],
+    "size": [
+      432,
+      385
+    ]
+  },
+  {
+    "source": "items/hearts/heart_medium.png",
+    "output": "assets/prepared/items/hearts/heart_medium.png",
+    "crop": [
+      14,
+      16,
+      378,
+      331
+    ],
+    "size": [
+      364,
+      315
+    ]
+  },
+  {
+    "source": "items/hearts/heart_broken.png",
+    "output": "assets/prepared/items/hearts/heart_broken.png",
+    "crop": [
+      238,
+      55,
+      456,
+      370
+    ],
+    "size": [
+      218,
+      315
+    ]
+  },
+  {
+    "source": "items/hearts/heart_small.png",
+    "output": "assets/prepared/items/hearts/heart_small.png",
+    "crop": [
+      16,
+      16,
+      234,
+      210
+    ],
+    "size": [
+      218,
+      194
+    ]
+  },
+  {
+    "source": "items/hearts/heart_big.png",
+    "output": "assets/prepared/items/hearts/heart_big.png",
+    "crop": [
+      10,
+      15,
+      639,
+      520
+    ],
+    "size": [
+      629,
+      505
+    ]
+  },
+  {
+    "source": "ui/btn_jump.png",
+    "output": "assets/prepared/ui/btn_jump.png",
+    "crop": [
+      14,
+      12,
+      310,
+      271
+    ],
+    "size": [
+      296,
+      259
+    ]
+  },
+  {
+    "source": "ui/dialog_box.png",
+    "output": "assets/prepared/ui/dialog_box.png",
+    "crop": [
+      9,
+      13,
+      1221,
+      308
+    ],
+    "size": [
+      900,
+      219
+    ]
+  },
+  {
+    "source": "ui/progress_bar.png",
+    "output": "assets/prepared/ui/progress_bar.png",
+    "crop": [
+      14,
+      11,
+      713,
+      136
+    ],
+    "size": [
+      699,
+      125
+    ]
+  },
+  {
+    "source": "ui/panel_small.png",
+    "output": "assets/prepared/ui/panel_small.png",
+    "crop": [
+      9,
+      13,
+      508,
+      160
+    ],
+    "size": [
+      499,
+      147
+    ]
+  },
+  {
+    "source": "ui/btn_play_round.png",
+    "output": "assets/prepared/ui/btn_play_round.png",
+    "crop": [
+      11,
+      9,
+      305,
+      268
+    ],
+    "size": [
+      294,
+      259
+    ]
+  },
+  {
+    "source": "ui/btn_run.png",
+    "output": "assets/prepared/ui/btn_run.png",
+    "crop": [
+      9,
+      13,
+      305,
+      271
+    ],
+    "size": [
+      296,
+      258
+    ]
+  },
+  {
+    "source": "ui/panel_top.png",
+    "output": "assets/prepared/ui/panel_top.png",
+    "crop": [
+      9,
+      14,
+      1227,
+      216
+    ],
+    "size": [
+      900,
+      149
+    ]
+  },
+  {
+    "source": "ui/btn_home_round.png",
+    "output": "assets/prepared/ui/btn_home_round.png",
+    "crop": [
+      15,
+      16,
+      310,
+      274
+    ],
+    "size": [
+      295,
+      258
+    ]
+  },
+  {
+    "source": "ui/btn_restart_round.png",
+    "output": "assets/prepared/ui/btn_restart_round.png",
+    "crop": [
+      15,
+      14,
+      310,
+      272
+    ],
+    "size": [
+      295,
+      258
+    ]
+  },
+  {
+    "source": "ui/btn_left.png",
+    "output": "assets/prepared/ui/btn_left.png",
+    "crop": [
+      9,
+      12,
+      304,
+      270
+    ],
+    "size": [
+      295,
+      258
+    ]
+  },
+  {
+    "source": "ui/btn_pause_round.png",
+    "output": "assets/prepared/ui/btn_pause_round.png",
+    "crop": [
+      15,
+      8,
+      310,
+      267
+    ],
+    "size": [
+      295,
+      259
+    ]
+  },
+  {
+    "source": "ui/btn_right.png",
+    "output": "assets/prepared/ui/btn_right.png",
+    "crop": [
+      11,
+      11,
+      307,
+      269
+    ],
+    "size": [
+      296,
+      258
+    ]
+  },
+  {
+    "source": "world/platforms/platform_medium.png",
+    "output": "assets/prepared/world/platforms/platform_medium.png",
+    "crop": [
+      6,
+      8,
+      570,
+      226
+    ],
+    "size": [
+      564,
+      218
+    ]
+  },
+  {
+    "source": "world/platforms/cloud_platform.png",
+    "output": "assets/prepared/world/platforms/cloud_platform.png",
+    "crop": [
+      13,
+      11,
+      599,
+      223
+    ],
+    "size": [
+      586,
+      212
+    ]
+  },
+  {
+    "source": "world/platforms/crate.png",
+    "output": "assets/prepared/world/platforms/crate.png",
+    "crop": [
+      11,
+      15,
+      251,
+      253
+    ],
+    "size": [
+      240,
+      238
+    ]
+  },
+  {
+    "source": "world/platforms/ground_block.png",
+    "output": "assets/prepared/world/platforms/ground_block.png",
+    "crop": [
+      5,
+      10,
+      559,
+      317
+    ],
+    "size": [
+      554,
+      307
+    ]
+  },
+  {
+    "source": "world/platforms/platform_small.png",
+    "output": "assets/prepared/world/platforms/platform_small.png",
+    "crop": [
+      11,
+      6,
+      308,
+      218
+    ],
+    "size": [
+      297,
+      212
+    ]
+  },
+  {
+    "source": "world/platforms/gift_island.png",
+    "output": "assets/prepared/world/platforms/gift_island.png",
+    "crop": [
+      7,
+      5,
+      390,
+      305
+    ],
+    "size": [
+      383,
+      300
+    ]
+  },
+  {
+    "source": "world/platforms/finish_flag.png",
+    "output": "assets/prepared/world/platforms/finish_flag.png",
+    "crop": [
+      7,
+      5,
+      295,
+      347
+    ],
+    "size": [
+      288,
+      342
+    ]
+  },
+  {
+    "source": "world/platforms/platform_long.png",
+    "output": "assets/prepared/world/platforms/platform_long.png",
+    "crop": [
+      4,
+      8,
+      1177,
+      223
+    ],
+    "size": [
+      900,
+      165
+    ]
+  },
+  {
+    "source": "world/maze/hedge_short.png",
+    "output": "assets/prepared/world/maze/hedge_short.png",
+    "crop": [
+      9,
+      14,
+      198,
+      283
+    ],
+    "size": [
+      189,
+      269
+    ]
+  },
+  {
+    "source": "world/maze/hedge_corner.png",
+    "output": "assets/prepared/world/maze/hedge_corner.png",
+    "crop": [
+      11,
+      10,
+      334,
+      384
+    ],
+    "size": [
+      323,
+      374
+    ]
+  },
+  {
+    "source": "world/maze/maze_gate.png",
+    "output": "assets/prepared/world/maze/maze_gate.png",
+    "crop": [
+      5,
+      9,
+      463,
+      363
+    ],
+    "size": [
+      458,
+      354
+    ]
+  },
+  {
+    "source": "world/maze/hedge_vertical.png",
+    "output": "assets/prepared/world/maze/hedge_vertical.png",
+    "crop": [
+      10,
+      8,
+      185,
+      432
+    ],
+    "size": [
+      175,
+      424
+    ]
+  },
+  {
+    "source": "world/maze/maze_finish_gate.png",
+    "output": "assets/prepared/world/maze/maze_finish_gate.png",
+    "crop": [
+      10,
+      16,
+      449,
+      429
+    ],
+    "size": [
+      439,
+      413
+    ]
+  },
+  {
+    "source": "world/maze/hedge_t.png",
+    "output": "assets/prepared/world/maze/hedge_t.png",
+    "crop": [
+      9,
+      14,
+      447,
+      392
+    ],
+    "size": [
+      438,
+      378
+    ]
+  },
+  {
+    "source": "world/maze/hedge_horizontal.png",
+    "output": "assets/prepared/world/maze/hedge_horizontal.png",
+    "crop": [
+      12,
+      15,
+      743,
+      221
+    ],
+    "size": [
+      731,
+      206
+    ]
+  },
+  {
+    "source": "world/maze/hedge_cross.png",
+    "output": "assets/prepared/world/maze/hedge_cross.png",
+    "crop": [
+      14,
+      6,
+      415,
+      378
+    ],
+    "size": [
+      401,
+      372
+    ]
+  },
+  {
+    "source": "world/decor/bush_small.png",
+    "output": "assets/prepared/world/decor/bush_small.png",
+    "crop": [
+      14,
+      12,
+      334,
+      212
+    ],
+    "size": [
+      320,
+      200
+    ]
+  },
+  {
+    "source": "world/decor/bench.png",
+    "output": "assets/prepared/world/decor/bench.png",
+    "crop": [
+      11,
+      14,
+      459,
+      308
+    ],
+    "size": [
+      448,
+      294
+    ]
+  },
+  {
+    "source": "world/decor/lamp_post.png",
+    "output": "assets/prepared/world/decor/lamp_post.png",
+    "crop": [
+      16,
+      16,
+      229,
+      539
+    ],
+    "size": [
+      213,
+      523
+    ]
+  },
+  {
+    "source": "world/decor/flower_arch.png",
+    "output": "assets/prepared/world/decor/flower_arch.png",
+    "crop": [
+      13,
+      16,
+      529,
+      532
+    ],
+    "size": [
+      516,
+      516
+    ]
+  },
+  {
+    "source": "world/decor/village_bg.png",
+    "output": "assets/prepared/world/decor/village_bg.png",
+    "crop": [
+      14,
+      24,
+      1255,
+      270
+    ],
+    "size": [
+      900,
+      178
+    ]
+  },
+  {
+    "source": "world/decor/grass_patch.png",
+    "output": "assets/prepared/world/decor/grass_patch.png",
+    "crop": [
+      17,
+      14,
+      559,
+      229
+    ],
+    "size": [
+      542,
+      215
+    ]
+  },
+  {
+    "source": "world/decor/petals_group.png",
+    "output": "assets/prepared/world/decor/petals_group.png",
+    "crop": [
+      3,
+      3,
+      506,
+      33
+    ],
+    "size": [
+      503,
+      30
+    ]
+  },
+  {
+    "source": "world/decor/cloud_small.png",
+    "output": "assets/prepared/world/decor/cloud_small.png",
+    "crop": [
+      17,
+      15,
+      273,
+      133
+    ],
+    "size": [
+      256,
+      118
+    ]
+  },
+  {
+    "source": "world/decor/bush_big.png",
+    "output": "assets/prepared/world/decor/bush_big.png",
+    "crop": [
+      5,
+      15,
+      426,
+      282
+    ],
+    "size": [
+      421,
+      267
+    ]
+  },
+  {
+    "source": "world/decor/cloud_medium.png",
+    "output": "assets/prepared/world/decor/cloud_medium.png",
+    "crop": [
+      20,
+      16,
+      364,
+      140
+    ],
+    "size": [
+      344,
+      124
+    ]
+  },
+  {
+    "source": "world/decor/cloud_big.png",
+    "output": "assets/prepared/world/decor/cloud_big.png",
+    "crop": [
+      11,
+      13,
+      588,
+      248
+    ],
+    "size": [
+      577,
+      235
+    ]
+  }
+]

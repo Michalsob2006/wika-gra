@@ -1,0 +1,282 @@
+[
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/backgrounds/wika_dash_bg_hearts_valley.png",
+    "file": "assets/dash/backgrounds/wika_dash_bg_hearts_valley.webp",
+    "size": [
+      1440,
+      480
+    ],
+    "crop": null,
+    "bytes": 108146,
+    "sha256": "06f6dc6a519257ff5be2acb08a8e68a387e45f11c61935778f4a717538bb9fd2"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/backgrounds/wika_dash_bg_riverside_sunset.png",
+    "file": "assets/dash/backgrounds/wika_dash_bg_riverside_sunset.webp",
+    "size": [
+      1440,
+      480
+    ],
+    "crop": null,
+    "bytes": 169010,
+    "sha256": "252e59af5ebaaafdaadbbc258a617c284f47785847667e3907f8d42bf3943348"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/characters/wika_dash_crouch.png",
+    "file": "assets/dash/characters/wika_dash_crouch.webp",
+    "size": [
+      360,
+      260
+    ],
+    "crop": [
+      11,
+      168,
+      1233,
+      1052
+    ],
+    "bytes": 44888,
+    "sha256": "0e6f9fbb9b96d860a567b8c545e6821f7c92fc78853cf929bb822602da9c1a38"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/characters/wika_dash_jump.png",
+    "file": "assets/dash/characters/wika_dash_jump.webp",
+    "size": [
+      360,
+      344
+    ],
+    "crop": [
+      49,
+      63,
+      1206,
+      1169
+    ],
+    "bytes": 47042,
+    "sha256": "f1823cfc791ec97bb4d249f156ced02913118807a7d38ea437c333dc29a83e0b"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/characters/wika_dash_run.png",
+    "file": "assets/dash/characters/wika_dash_run.webp",
+    "size": [
+      349,
+      360
+    ],
+    "crop": [
+      69,
+      59,
+      1184,
+      1210
+    ],
+    "bytes": 48566,
+    "sha256": "b74ed8aad4d2ea02cc380ca92bafee512718c73c66121b77b3d4c5402a57de42"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/01_serduszkowy_zbieracz_cover.png",
+    "file": "assets/dash/covers/01_serduszkowy_zbieracz_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 75244,
+    "sha256": "5935c066fb16eda454726a1be5ca8f0340f62fa88fb06400be5f507e377f2eef"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/02_milosny_labirynt_cover.png",
+    "file": "assets/dash/covers/02_milosny_labirynt_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 104588,
+    "sha256": "c055a243be37d0bab7bf93b09ada30451512cdfd50d04b3f69651d3d80c25aa1"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/03_wika_dash_cover.png",
+    "file": "assets/dash/covers/03_wika_dash_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 87112,
+    "sha256": "dc0b3fe1c5a69a47b31f73bc32310f88ed705c95c2545a103ac64027e015f037"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/04_memory_wspomnien_cover.png",
+    "file": "assets/dash/covers/04_memory_wspomnien_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 93236,
+    "sha256": "64770c2b45e1c2d699592509db03b54e86a2b6d7ec17096904d290a3c5f01720"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/05_magiczny_prezent_cover.png",
+    "file": "assets/dash/covers/05_magiczny_prezent_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 93064,
+    "sha256": "4178188244f969663b0dde1032baf351e690825b342fd7ef6894b70b5df1f372"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/covers/06_love_snake_cover.png",
+    "file": "assets/dash/covers/06_love_snake_cover.webp",
+    "size": [
+      720,
+      540
+    ],
+    "crop": null,
+    "bytes": 73404,
+    "sha256": "c3af69b72fbdeaf878f89f97a079b858bbe8de7eb5851c19a8f944862479b7fc"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/items/heart_collectible.png",
+    "file": "assets/dash/items/heart_collectible.webp",
+    "size": [
+      128,
+      101
+    ],
+    "crop": [
+      59,
+      193,
+      1188,
+      1087
+    ],
+    "bytes": 6218,
+    "sha256": "759eec89908be162cbb2014bff84e2c2227a68cc985cd30ef9e36474db274c01"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/obstacles/bird_mail.png",
+    "file": "assets/dash/obstacles/bird_mail.webp",
+    "size": [
+      240,
+      197
+    ],
+    "crop": [
+      143,
+      202,
+      1175,
+      1051
+    ],
+    "bytes": 16436,
+    "sha256": "2d35692ef9cfbdc55748e815c8a841b3db71dfc5f435bb6487935d503134b31d"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/obstacles/crate_heart.png",
+    "file": "assets/dash/obstacles/crate_heart.webp",
+    "size": [
+      240,
+      154
+    ],
+    "crop": [
+      27,
+      264,
+      1233,
+      1038
+    ],
+    "bytes": 16678,
+    "sha256": "c8f6d37b483d1f21b9fa97b8b8ed554dc82cfb1c66fded9beadb00624c9a46e5"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/tiles/platform_flower_tile.png",
+    "file": "assets/dash/tiles/platform_flower_tile.webp",
+    "size": [
+      960,
+      138
+    ],
+    "crop": [
+      0,
+      268,
+      2172,
+      581
+    ],
+    "bytes": 64800,
+    "sha256": "77daa4da76de20381f3cac970cca9bc1940d9372f208e7df1398e89c20e7df0d"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/ui/btn_back.png",
+    "file": "assets/dash/ui/btn_back.webp",
+    "size": [
+      160,
+      149
+    ],
+    "crop": [
+      36,
+      51,
+      408,
+      397
+    ],
+    "bytes": 9660,
+    "sha256": "5fda9e98cdef106d5d49fd9b1380fa73b35e30c1505557ecc7c92b3345564e93"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/ui/btn_crouch.png",
+    "file": "assets/dash/ui/btn_crouch.webp",
+    "size": [
+      160,
+      133
+    ],
+    "crop": [
+      0,
+      23,
+      680,
+      588
+    ],
+    "bytes": 9672,
+    "sha256": "9d22ec03563aa63c61b6ee265763060a9341c13fc7f9c94cf7821d1b5b5bba29"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/ui/btn_jump.png",
+    "file": "assets/dash/ui/btn_jump.webp",
+    "size": [
+      160,
+      145
+    ],
+    "crop": [
+      11,
+      19,
+      634,
+      584
+    ],
+    "bytes": 10394,
+    "sha256": "c7f327e05a4a1e61b624e10673c4ecaf04fb0e2cd524d1142afb36acb41162b0"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/ui/btn_pause.png",
+    "file": "assets/dash/ui/btn_pause.webp",
+    "size": [
+      160,
+      123
+    ],
+    "crop": [
+      0,
+      53,
+      449,
+      399
+    ],
+    "bytes": 7488,
+    "sha256": "ce0c45c1d5b88d612f47bd8fa6c56af3fed4c5d16cde48816066f799aecc6ef4"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_codex_final_pack/ui/btn_settings.png",
+    "file": "assets/dash/ui/btn_settings.webp",
+    "size": [
+      160,
+      149
+    ],
+    "crop": [
+      58,
+      56,
+      429,
+      402
+    ],
+    "bytes": 9652,
+    "sha256": "b7d0a928308f08c04fd3b12399f0a6179dd9e62d4ab8f7bb1a08a5278bf4be71"
+  }
+]

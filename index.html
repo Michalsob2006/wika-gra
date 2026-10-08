@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#fcf6f0" />
+    <meta
+      name="description"
+      content="Siedem małych gierek dla Wiki na naszą trzecią rocznicę."
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Dla Wiki" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="assets/pwa/icon-192.png" />
+    <title>Mini gierki dla Wiki</title>
+    <link rel="icon" href="assets/optimized/heart-small.webp" />
+    <link rel="stylesheet" href="styles/main.css?v=memory-crop-2" />
+  </head>
+  <body>
+    <div id="loading" class="loading">
+      <div class="loading-pair">
+        <img
+          src="assets/optimized/characters/wika/wika_wave.webp"
+          alt="Wiki"
+        /><img
+          src="assets/optimized/characters/michal/michal_wave.webp"
+          alt="Michał"
+        />
+      </div>
+      <h1>Mini gierki dla Wiki</h1>
+      <p>6 małych gierek i bonusowa przygoda</p>
+      <progress
+        id="load-progress"
+        max="100"
+        value="0"
+        aria-label="Ładowanie grafik i dźwięków"
+      ></progress>
+      <p id="load-label">Ładujemy grafiki i dźwięki…</p>
+    </div>
+    <header class="topbar">
+      <a href="#" id="brand"
+        ><img src="assets/optimized/heart-small.webp" alt="" /> Dla Wiki
+        <span>od Michała</span></a
+      ><button id="mute" class="quiet" aria-pressed="false">
+        Dźwięk: włączony
+      </button>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer>3 lata razem. Jeszcze tyle leveli przed nami.</footer>
+    <script type="module" src="js/app.js?v=dash-goal-20"></script>
+  </body>
+</html>

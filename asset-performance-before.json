@@ -1,0 +1,212 @@
+[
+  {
+    "key": "wikaIdle",
+    "path": "assets/prepared/characters/wika/wika_idle.png",
+    "width": 308,
+    "height": 694,
+    "bytes": 262487
+  },
+  {
+    "key": "wikaRun",
+    "path": "assets/prepared/characters/wika/wika_run.png",
+    "width": 421,
+    "height": 647,
+    "bytes": 315971
+  },
+  {
+    "key": "wikaJump",
+    "path": "assets/prepared/characters/wika/wika_jump.png",
+    "width": 477,
+    "height": 585,
+    "bytes": 345681
+  },
+  {
+    "key": "wikaHappy",
+    "path": "assets/prepared/characters/wika/wika_happy.png",
+    "width": 397,
+    "height": 713,
+    "bytes": 318526
+  },
+  {
+    "key": "wikaWave",
+    "path": "assets/prepared/characters/wika/wika_wave.png",
+    "width": 343,
+    "height": 694,
+    "bytes": 271601
+  },
+  {
+    "key": "michalIdle",
+    "path": "assets/prepared/characters/michal/michal_idle.png",
+    "width": 226,
+    "height": 665,
+    "bytes": 213939
+  },
+  {
+    "key": "michalBouquet",
+    "path": "assets/prepared/characters/michal/michal_bouquet.png",
+    "width": 327,
+    "height": 668,
+    "bytes": 252195
+  },
+  {
+    "key": "michalWave",
+    "path": "assets/prepared/characters/michal/michal_wave.png",
+    "width": 297,
+    "height": 658,
+    "bytes": 233841
+  },
+  {
+    "key": "heart",
+    "path": "assets/prepared/items/hearts/heart_medium.png",
+    "width": 364,
+    "height": 315,
+    "bytes": 114125
+  },
+  {
+    "key": "bigHeart",
+    "path": "assets/prepared/items/hearts/heart_big.png",
+    "width": 629,
+    "height": 505,
+    "bytes": 272579
+  },
+  {
+    "key": "broken",
+    "path": "assets/prepared/items/hearts/heart_broken.png",
+    "width": 218,
+    "height": 315,
+    "bytes": 79317
+  },
+  {
+    "key": "gift",
+    "path": "assets/prepared/items/gifts/gift_box.png",
+    "width": 889,
+    "height": 900,
+    "bytes": 779423
+  },
+  {
+    "key": "bouquet",
+    "path": "assets/prepared/items/gifts/bouquet_roses.png",
+    "width": 883,
+    "height": 900,
+    "bytes": 1081979
+  },
+  {
+    "key": "letter",
+    "path": "assets/prepared/items/collectibles/love_letter.png",
+    "width": 507,
+    "height": 408,
+    "bytes": 221269
+  },
+  {
+    "key": "coffee",
+    "path": "assets/prepared/items/collectibles/love_coffee.png",
+    "width": 475,
+    "height": 426,
+    "bytes": 278649
+  },
+  {
+    "key": "ticket",
+    "path": "assets/prepared/items/collectibles/ticket_pink.png",
+    "width": 352,
+    "height": 474,
+    "bytes": 193444
+  },
+  {
+    "key": "star",
+    "path": "assets/prepared/items/collectibles/gold_star.png",
+    "width": 408,
+    "height": 395,
+    "bytes": 164994
+  },
+  {
+    "key": "key",
+    "path": "assets/prepared/items/collectibles/heart_key.png",
+    "width": 313,
+    "height": 484,
+    "bytes": 153481
+  },
+  {
+    "key": "hedge",
+    "path": "assets/prepared/world/maze/hedge_horizontal.png",
+    "width": 731,
+    "height": 206,
+    "bytes": 269881
+  },
+  {
+    "key": "hedgeVertical",
+    "path": "assets/prepared/world/maze/hedge_vertical.png",
+    "width": 175,
+    "height": 424,
+    "bytes": 140094
+  },
+  {
+    "key": "gate",
+    "path": "assets/prepared/world/maze/maze_finish_gate.png",
+    "width": 439,
+    "height": 413,
+    "bytes": 314754
+  },
+  {
+    "key": "platform",
+    "path": "assets/prepared/world/platforms/platform_long.png",
+    "width": 900,
+    "height": 165,
+    "bytes": 193688
+  },
+  {
+    "key": "crate",
+    "path": "assets/prepared/world/platforms/crate.png",
+    "width": 240,
+    "height": 238,
+    "bytes": 94123
+  },
+  {
+    "key": "flag",
+    "path": "assets/prepared/world/platforms/finish_flag.png",
+    "width": 288,
+    "height": 342,
+    "bytes": 74988
+  },
+  {
+    "key": "cloud",
+    "path": "assets/prepared/world/decor/cloud_big.png",
+    "width": 577,
+    "height": 235,
+    "bytes": 117709
+  },
+  {
+    "key": "village",
+    "path": "assets/prepared/world/decor/village_bg.png",
+    "width": 900,
+    "height": 178,
+    "bytes": 220162
+  },
+  {
+    "key": "arch",
+    "path": "assets/prepared/world/decor/flower_arch.png",
+    "width": 516,
+    "height": 516,
+    "bytes": 417590
+  },
+  {
+    "key": "left",
+    "path": "assets/prepared/ui/btn_left.png",
+    "width": 295,
+    "height": 258,
+    "bytes": 91179
+  },
+  {
+    "key": "right",
+    "path": "assets/prepared/ui/btn_right.png",
+    "width": 296,
+    "height": 258,
+    "bytes": 91667
+  },
+  {
+    "key": "jump",
+    "path": "assets/prepared/ui/btn_jump.png",
+    "width": 296,
+    "height": 259,
+    "bytes": 91324
+  }
+]

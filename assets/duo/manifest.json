@@ -1,0 +1,472 @@
+[
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/backgrounds/background_level_1.png",
+    "file": "assets/duo/backgrounds/background_level_1.webp",
+    "crop": null,
+    "size": [
+      1439,
+      810
+    ],
+    "bytes": 134038,
+    "sourceSha256": "2bc17a5fcfdc2ffd1c752d744b41ffa622b2240d1251bc98597165750273dc4e"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/backgrounds/background_level_2.png",
+    "file": "assets/duo/backgrounds/background_level_2.webp",
+    "crop": null,
+    "size": [
+      1439,
+      810
+    ],
+    "bytes": 226346,
+    "sourceSha256": "a115e405bdd5be97cb338c9e21e4b47307a8718da31b7f442152c932903b3238"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/michal/michal_idle.png",
+    "file": "assets/duo/characters/michal/michal_idle.webp",
+    "crop": [
+      318,
+      28,
+      951,
+      1235
+    ],
+    "size": [
+      168,
+      320
+    ],
+    "bytes": 20210,
+    "sourceSha256": "7ad7e8238dc85d9667a4e97ca6f71e0e983edf271b683431934b2e407f805438"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/michal/michal_jump.png",
+    "file": "assets/duo/characters/michal/michal_jump.webp",
+    "crop": [
+      216,
+      25,
+      1102,
+      1218
+    ],
+    "size": [
+      238,
+      320
+    ],
+    "bytes": 26718,
+    "sourceSha256": "92b02e7d053633df01dbf4633f903554a626dae00494c856d7de23f81080f919"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/michal/michal_push.png",
+    "file": "assets/duo/characters/michal/michal_push.webp",
+    "crop": [
+      67,
+      83,
+      1211,
+      1194
+    ],
+    "size": [
+      280,
+      272
+    ],
+    "bytes": 20612,
+    "sourceSha256": "7da3399b030c52d8e00dec440ba48e9eea97491d9e9868b5b2ffce40f8df6edf"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/michal/michal_walk.png",
+    "file": "assets/duo/characters/michal/michal_walk.webp",
+    "crop": [
+      202,
+      38,
+      1135,
+      1222
+    ],
+    "size": [
+      252,
+      320
+    ],
+    "bytes": 27562,
+    "sourceSha256": "36883ba7cd6029b1fb85dfabf316932d79c7d19bf679b9380b8dc63b2fca38b4"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/wika/wika_idle.png",
+    "file": "assets/duo/characters/wika/wika_idle.webp",
+    "crop": [
+      201,
+      7,
+      889,
+      1429
+    ],
+    "size": [
+      155,
+      320
+    ],
+    "bytes": 19892,
+    "sourceSha256": "6217055e254fa7a8fc96658d3f1f4871e15022f862ff039cbd08b97740b041e5"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/wika/wika_jump.png",
+    "file": "assets/duo/characters/wika/wika_jump.webp",
+    "crop": [
+      37,
+      52,
+      1071,
+      1283
+    ],
+    "size": [
+      269,
+      320
+    ],
+    "bytes": 34156,
+    "sourceSha256": "aa95dc15fc46a2ff7916306503929fc2cff9fcd58df7f1dc48af4dbb9c511d1c"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/wika/wika_push.png",
+    "file": "assets/duo/characters/wika/wika_push.webp",
+    "crop": [
+      60,
+      67,
+      1082,
+      1381
+    ],
+    "size": [
+      249,
+      320
+    ],
+    "bytes": 26034,
+    "sourceSha256": "4e53d7d239d9e0e4ba120b28b1946e139ba5e17c20a36254568df06bc720b26a"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/characters/wika/wika_walk.png",
+    "file": "assets/duo/characters/wika/wika_walk.webp",
+    "crop": [
+      158,
+      20,
+      958,
+      1379
+    ],
+    "size": [
+      188,
+      320
+    ],
+    "bytes": 24634,
+    "sourceSha256": "2389b6fded33275a9e4c9d9ec02d3ccdc69adfbdf9aadcdf4eff5e3f30392966"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/collectibles/blue_water.png",
+    "file": "assets/duo/gameplay/collectibles/blue_water.webp",
+    "crop": [
+      10,
+      304,
+      2161,
+      581
+    ],
+    "size": [
+      640,
+      82
+    ],
+    "bytes": 25198,
+    "sourceSha256": "489ac48477f7fa3bff93dcd0d324cb80b13d217bcb1d4c044b312c749da57b0d"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/collectibles/diamond_collectible.png",
+    "file": "assets/duo/gameplay/collectibles/diamond_collectible.webp",
+    "crop": [
+      185,
+      114,
+      1068,
+      1152
+    ],
+    "size": [
+      357,
+      420
+    ],
+    "bytes": 27460,
+    "sourceSha256": "7eec1bb72fbac649ba91a732f79877a030a04ad7180bb1ba7ee03790a5c66664"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/collectibles/heart_collectible.png",
+    "file": "assets/duo/gameplay/collectibles/heart_collectible.webp",
+    "crop": [
+      110,
+      167,
+      1142,
+      1099
+    ],
+    "size": [
+      465,
+      420
+    ],
+    "bytes": 37704,
+    "sourceSha256": "84b5782c01ca357b7d053551b89ed3a3d552ac819bc93715ef57169f3bbbbbe3"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/collectibles/pink_lava.png",
+    "file": "assets/duo/gameplay/collectibles/pink_lava.webp",
+    "crop": [
+      42,
+      188,
+      2146,
+      596
+    ],
+    "size": [
+      640,
+      124
+    ],
+    "bytes": 36890,
+    "sourceSha256": "9a7bc24a216a5651ff18d81cc887d03f9b9a9afea64537433161bb5305efccf0"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/doors/door_blue.png",
+    "file": "assets/duo/gameplay/doors/door_blue.webp",
+    "crop": [
+      27,
+      73,
+      1065,
+      1395
+    ],
+    "size": [
+      330,
+      420
+    ],
+    "bytes": 60358,
+    "sourceSha256": "da9b32ef4953f93b1db3b867f6d49afc344b394d0c0cc5cc688e50231efb24c7"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/doors/door_pink.png",
+    "file": "assets/duo/gameplay/doors/door_pink.webp",
+    "crop": [
+      8,
+      114,
+      1083,
+      1374
+    ],
+    "size": [
+      358,
+      420
+    ],
+    "bytes": 63682,
+    "sourceSha256": "638315a1e3afe2fba74aa245025737dd172d57b3b868a0a58995890eebb4e181"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/doors/final_door.png",
+    "file": "assets/duo/gameplay/doors/final_door.webp",
+    "crop": [
+      25,
+      52,
+      1061,
+      1426
+    ],
+    "size": [
+      317,
+      420
+    ],
+    "bytes": 66414,
+    "sourceSha256": "5112077ff84c4b60237a22eb9fd99fb0d75f6aae023491e30b1a37adb2d9a910"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/hazards/spikes.png",
+    "file": "assets/duo/gameplay/hazards/spikes.webp",
+    "crop": [
+      6,
+      182,
+      2166,
+      585
+    ],
+    "size": [
+      640,
+      119
+    ],
+    "bytes": 43574,
+    "sourceSha256": "ace91c55ee72ead93be22b279935c35c6b48611bd6feacf8b01187d4a07f6b52"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/bridge_platform.png",
+    "file": "assets/duo/gameplay/interactive/bridge_platform.webp",
+    "crop": [
+      26,
+      376,
+      1422,
+      751
+    ],
+    "size": [
+      640,
+      172
+    ],
+    "bytes": 27414,
+    "sourceSha256": "29c1d7881619970c64fb346014f3be32cfecd1ed456365f02b5209ed78b754b4"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/button_blue.png",
+    "file": "assets/duo/gameplay/interactive/button_blue.webp",
+    "crop": [
+      125,
+      536,
+      1130,
+      859
+    ],
+    "size": [
+      640,
+      206
+    ],
+    "bytes": 29036,
+    "sourceSha256": "9f8ec5104f5c03fef9c29110e3889b70802adfb0797190e5660758a778a73658"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/button_pink.png",
+    "file": "assets/duo/gameplay/interactive/button_pink.webp",
+    "crop": [
+      137,
+      513,
+      1117,
+      855
+    ],
+    "size": [
+      640,
+      223
+    ],
+    "bytes": 27164,
+    "sourceSha256": "103d98526acfd21021f1b72111e00b75a8e724b24d1a5e556b8962f0a5972733"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/crate.png",
+    "file": "assets/duo/gameplay/interactive/crate.webp",
+    "crop": [
+      227,
+      284,
+      1028,
+      976
+    ],
+    "size": [
+      486,
+      420
+    ],
+    "bytes": 44716,
+    "sourceSha256": "f1e52a392df380085284999207cb1ada19477a8f1c4d7405de8d05ec121c557e"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/heavy_block.png",
+    "file": "assets/duo/gameplay/interactive/heavy_block.webp",
+    "crop": [
+      310,
+      327,
+      958,
+      1002
+    ],
+    "size": [
+      403,
+      420
+    ],
+    "bytes": 43594,
+    "sourceSha256": "a1c2a731ac8cb13d0366779297e796593388d7526ade0348ae146ab93e6e7d58"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/lever_blue.png",
+    "file": "assets/duo/gameplay/interactive/lever_blue.webp",
+    "crop": [
+      209,
+      245,
+      1178,
+      1035
+    ],
+    "size": [
+      515,
+      420
+    ],
+    "bytes": 34230,
+    "sourceSha256": "41671724dd25b518a6851bea6a494e32b1d297889267e2ad617a6cb0baaa7bab"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/lever_pink.png",
+    "file": "assets/duo/gameplay/interactive/lever_pink.webp",
+    "crop": [
+      188,
+      203,
+      1168,
+      1081
+    ],
+    "size": [
+      469,
+      420
+    ],
+    "bytes": 31910,
+    "sourceSha256": "00e55275b221ed2e191f48ec211db117a0f90ce5392725d73b2e62eadf368efd"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/interactive/moving_platform.png",
+    "file": "assets/duo/gameplay/interactive/moving_platform.webp",
+    "crop": [
+      68,
+      0,
+      1380,
+      914
+    ],
+    "size": [
+      603,
+      420
+    ],
+    "bytes": 43018,
+    "sourceSha256": "34585a67a581aa10147b84ad7be2d49af78e2da19dc367dd62096a124ce7a123"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/tiles/platform_block.png",
+    "file": "assets/duo/gameplay/tiles/platform_block.webp",
+    "crop": [
+      85,
+      248,
+      1191,
+      1050
+    ],
+    "size": [
+      579,
+      420
+    ],
+    "bytes": 58098,
+    "sourceSha256": "aca23858386d0f94de73da228e08109ee852e7983259b03ff36425cd44bfcb7c"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/tiles/platform_column.png",
+    "file": "assets/duo/gameplay/tiles/platform_column.webp",
+    "crop": [
+      204,
+      35,
+      822,
+      1512
+    ],
+    "size": [
+      176,
+      420
+    ],
+    "bytes": 23306,
+    "sourceSha256": "3d761600bd8b51f1176a84f5486aa1682e061727656670d159f86d1ad247a880"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/tiles/platform_edge.png",
+    "file": "assets/duo/gameplay/tiles/platform_edge.webp",
+    "crop": [
+      49,
+      220,
+      1410,
+      891
+    ],
+    "size": [
+      640,
+      316
+    ],
+    "bytes": 46018,
+    "sourceSha256": "764f0042e15b8a76a94279aaf0e4381015514a3fefaa4d8fd446256aaeec1da2"
+  },
+  {
+    "source": "/Users/michalsobczynski/Downloads/wika_michal_codex_pack_final/gameplay/tiles/platform_straight.png",
+    "file": "assets/duo/gameplay/tiles/platform_straight.webp",
+    "crop": [
+      11,
+      230,
+      2164,
+      583
+    ],
+    "size": [
+      640,
+      105
+    ],
+    "bytes": 29628,
+    "sourceSha256": "b8a96a05e8070d9a257888c3e48a279a7fc633c6a487bf97cffba790b9b172ec"
+  }
+]

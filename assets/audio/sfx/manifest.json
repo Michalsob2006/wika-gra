@@ -1,0 +1,79 @@
+[
+  {
+    "effect": "collect-heart",
+    "source": "/System/Library/Sounds/Tink.aiff",
+    "file": "assets/audio/sfx/collect-heart.wav",
+    "durationSeconds": 0.0802,
+    "bytes": 3582,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "2baff931a2f60cfaa8082fb9ae8ff8a8035486e33795fcc5d30668ac7836ea2c"
+  },
+  {
+    "effect": "collect-bonus",
+    "source": "/System/Library/Sounds/Glass.aiff",
+    "file": "assets/audio/sfx/collect-bonus.wav",
+    "durationSeconds": 0.6602,
+    "bytes": 29160,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "29f696a8cba45968ec40344f8c3a6454101b222ca1074705d274efb2d0dd4795"
+  },
+  {
+    "effect": "negative",
+    "source": "/System/Library/Sounds/Basso.aiff",
+    "file": "assets/audio/sfx/negative.wav",
+    "durationSeconds": 0.2024,
+    "bytes": 8968,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "d7dd5de266a3d838abe8495bd9d54d97f1f1fff69d582b745c51e8c55828165b"
+  },
+  {
+    "effect": "danger",
+    "source": "/System/Library/Sounds/Submarine.aiff",
+    "file": "assets/audio/sfx/danger.wav",
+    "durationSeconds": 0.6912,
+    "bytes": 30524,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "834ae92c96fa1d8a4c17e93f2289b2ed31a1b53e7fc80b3c7752f0e509c384f9"
+  },
+  {
+    "effect": "game-over",
+    "source": "/System/Library/Sounds/Sosumi.aiff",
+    "file": "assets/audio/sfx/game-over.wav",
+    "durationSeconds": 0.3939,
+    "bytes": 17416,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "fa8f37d5bb715cf370c5492e0b07a4736672294f05ecd9a9bf824467c399e5dd"
+  },
+  {
+    "effect": "win",
+    "source": "/System/Library/Sounds/Hero.aiff",
+    "file": "assets/audio/sfx/win.wav",
+    "durationSeconds": 0.778,
+    "bytes": 34352,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "65e6fb7763df707352977bd7b9e263be6b8a4fd76e1d6eda5f9a8093252a4bbd"
+  },
+  {
+    "effect": "click",
+    "source": "/System/Library/Sounds/Pop.aiff",
+    "file": "assets/audio/sfx/click.wav",
+    "durationSeconds": 0.16,
+    "bytes": 7100,
+    "sampleRate": 22050,
+    "channels": 1,
+    "peak": 0.8,
+    "sha256": "8ca85533d112bb7e3e4b4d5de05da2b422517bfcdb5dacdbd74f2362e825c75d"
+  }
+]
