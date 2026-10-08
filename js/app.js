@@ -12,7 +12,7 @@ import {
 import { sound, isMuted, toggleMute } from "./audio.js";
 import { catcher } from "./games/catcher.js";
 import { maze } from "./games/maze.js";
-import { wikaDash } from "./games/wika-dash.js?v=mobile-fix-1";
+import { wikaDash } from "./games/wika-dash.js?v=dash-hearts-2";
 import { renderGameCard } from "./game-card.js";
 import { giftHunt } from "./games/gift-hunt.js";
 import { memory } from "./games/memory.js?v=memory-crop-2";

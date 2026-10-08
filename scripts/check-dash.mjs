@@ -138,8 +138,8 @@ for (const fps of [30, 60, 120])
         lastArrival = { kind: obstacle.kind, elapsed: s.elapsed };
       }
       maxEntities = Math.max(maxEntities, s.items.length + s.obstacles.length);
-      if (frames === fps * 40 - 1) {
-        assert.ok(s.eligible, "goal not reachable by 40s");
+      if (frames === fps * 45 - 1) {
+        assert.ok(s.eligible, "goal not reachable by 45s");
         leastHearts = Math.min(leastHearts, s.hearts);
         mostHearts = Math.max(mostHearts, s.hearts);
       }
@@ -149,7 +149,12 @@ for (const fps of [30, 60, 120])
     assert.ok(maxEntities < 15);
   }
 assert.ok(leastHearts >= DASH_GOAL.hearts, "too few hearts to reach the goal");
-assert.ok(mostHearts <= 40, "hearts spawn too frequently");
+assert.ok(mostHearts <= 35, "hearts spawn too frequently");
+assert.deepEqual(
+  [DASH_PACING.heartMinSeconds, DASH_PACING.heartMaxSeconds],
+  [1.15, 1.45],
+  "heart timing stays in the intentionally calmer range",
+);
 const score = makeDash();
 score.status = "playing";
 score.items = [{ x: 200, y: GROUND - 66, w: 40, h: 40 }];
@@ -206,7 +211,7 @@ for (const [distance, hearts, eligible] of [
   assert.equal(events.includes("goal"), eligible);
 }
 console.log(
-  "OK Wika Dash: 150 seeded 120s runs at 30/60/120 fps, jump/no air jump/landing, hold/release crouch, bird clearance, collisions/death freeze, pause, single-heart spawning, goal500/20, bounded spawn/speed, cover cards and asset paths. Minimum hearts at40s:",
+  "OK Wika Dash: 150 seeded 120s runs at 30/60/120 fps, jump/no air jump/landing, hold/release crouch, bird clearance, collisions/death freeze, pause, calmer heart spawning, goal500/20, bounded spawn/speed, cover cards and asset paths. Hearts at45s:",
   leastHearts,
   "to",
   mostHearts,

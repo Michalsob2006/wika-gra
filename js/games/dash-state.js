@@ -36,8 +36,10 @@ export const DASH_PACING = {
   maxSpeed: 493,
   jumpVelocity: 730,
   gravity: 1440,
-  heartMinSeconds: 0.95,
-  heartMaxSeconds: 1.2,
+  // Keep collectibles present without filling wide desktop viewports with a
+  // long row of hearts. The next heart is still timed from the current speed.
+  heartMinSeconds: 1.15,
+  heartMaxSeconds: 1.45,
 };
 export const dashSpeed = ({ distance, speedScale = 1 }) => {
   const d = Math.max(0, distance);

@@ -13,7 +13,7 @@ import {
   requestDashAction,
   crouching,
   mergeDashBest,
-} from "./dash-state.js?v=mobile-fix-1";
+} from "./dash-state.js?v=dash-hearts-2";
 const DASH_BEST_KEY = "wiki-anniversary-dash-best-v1";
 function readDashBest() {
   try {
