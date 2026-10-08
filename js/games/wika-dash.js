@@ -12,7 +12,20 @@ import {
   stepDash,
   requestDashAction,
   crouching,
-} from "./dash-state.js?v=dash-goal-20";
+  mergeDashBest,
+} from "./dash-state.js?v=mobile-fix-1";
+const DASH_BEST_KEY = "wiki-anniversary-dash-best-v1";
+function readDashBest() {
+  try {
+    const value = JSON.parse(localStorage.getItem(DASH_BEST_KEY) || "null");
+    return {
+      distance: Math.max(0, Number(value?.distance) || 0),
+      hearts: Math.max(0, Number(value?.hearts) || 0),
+    };
+  } catch {
+    return { distance: 0, hearts: 0 };
+  }
+}
 export function wikaDash({ root, win }) {
   const shell = root.querySelector(".game-shell"),
     canvas = root.querySelector("canvas"),
@@ -53,7 +66,8 @@ export function wikaDash({ root, win }) {
   const goal = document.createElement("div");
   goal.className = "dash-goal";
   goal.setAttribute("aria-live", "polite");
-  goal.innerHTML = `<span>Cel: ${DASH_GOAL.distance} m i ${DASH_GOAL.hearts} serduszek</span><button class="play" id="dash-finish" hidden>Zapisz przygodę ✓</button>`;
+  const best = readDashBest();
+  goal.innerHTML = `<span>Cel: ${DASH_GOAL.distance} m i ${DASH_GOAL.hearts} serduszek${best.distance || best.hearts ? ` · Rekord: ${best.distance} m / ${best.hearts} ♡` : ""}</span><button class="play" id="dash-finish" hidden>Zapisz przygodę ✓</button>`;
   shell.append(goal);
   const distance = root.querySelector("#dash-distance"),
     heart = root.querySelector("#score"),
@@ -61,9 +75,11 @@ export function wikaDash({ root, win }) {
     finish = root.querySelector("#dash-finish");
   const controls = input(root),
     s = makeDash();
+  s.speedScale = matchMedia("(pointer: coarse)").matches ? 0.9 : 1;
   s.viewWidth = canvas.width;
   let lastHUD = "",
-    disposed = false;
+    disposed = false,
+    nextBestCheckpoint = 25;
   let lastPaint;
   const onResize = () => {
     const width = viewWidth(),
@@ -112,6 +128,7 @@ export function wikaDash({ root, win }) {
     }
   }
   function gameOver() {
+    recordBest();
     stop();
     sound("game-over");
     pause.disabled = true;
@@ -127,19 +144,22 @@ export function wikaDash({ root, win }) {
     panel.querySelector("#dash-save")?.addEventListener("click", win);
     panel.querySelector("#dash-retry").focus();
   }
-  function completeRun() {
-    s.status = "won";
-    stop();
-    pause.disabled = true;
-    controls.clear();
-    panelContent(
-      "Przygoda ukończona ❤️",
-      `${Math.floor(s.distance)} m · ${s.hearts} serduszek. Cel 500 m i 20 serduszek zdobyty!`,
-      '<button class="primary" id="dash-save">Zapisz przygodę ✓</button><button class="quiet" id="dash-menu">Wróć do menu</button>',
-    );
-    panel.querySelector("#dash-save").onclick = win;
-    panel.querySelector("#dash-menu").onclick = () => home.click();
-    panel.querySelector("#dash-save").focus();
+  function recordBest() {
+    const current = readDashBest(),
+      next = mergeDashBest(current, s.distance, s.hearts);
+    if (next.distance === current.distance && next.hearts === current.hearts)
+      return;
+    try {
+      localStorage.setItem(DASH_BEST_KEY, JSON.stringify(next));
+    } catch {}
+  }
+  function finishRun() {
+    if (!s.eligible) return;
+    recordBest();
+    win({
+      title: "Przygoda ukończona ❤️",
+      summary: `${Math.floor(s.distance)} m · ${s.hearts} serduszek`,
+    });
   }
   panelContent(
     "Gotowa na małą przygodę?",
@@ -148,9 +168,7 @@ export function wikaDash({ root, win }) {
   );
   panel.querySelector("#dash-start").onclick = start;
   pause.onclick = setPause;
-  finish.onclick = () => {
-    if (s.eligible) win();
-  };
+  finish.onclick = finishRun;
   const action = (name) => requestDashAction(s, name);
   const onKey = (e) => {
     const name = e.key.toLowerCase();
@@ -198,7 +216,6 @@ export function wikaDash({ root, win }) {
       if (events.includes("goal")) {
         goal.classList.add("reached");
         finish.hidden = false;
-        completeRun();
       }
       const stamp = `${Math.floor(s.distance)}:${s.hearts}`;
       if (stamp !== lastHUD) {
@@ -206,6 +223,10 @@ export function wikaDash({ root, win }) {
         distance.textContent = `${Math.floor(s.distance)} m`;
         heart.textContent = `♡ ${s.hearts}`;
         finish.hidden = !s.eligible;
+      }
+      if (s.distance >= nextBestCheckpoint || events.includes("heart")) {
+        recordBest();
+        nextBestCheckpoint = Math.floor(s.distance / 25 + 1) * 25;
       }
     },
     () => {
@@ -267,6 +288,7 @@ export function wikaDash({ root, win }) {
   return () => {
     if (disposed) return;
     disposed = true;
+    recordBest();
     stop();
     controls.destroy();
     window.removeEventListener("resize", onResize);

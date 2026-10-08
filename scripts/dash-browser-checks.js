@@ -219,8 +219,7 @@ async (page) => {
     const before = parseInt(
       document.querySelector("#dash-distance").textContent,
     );
-    const result = document.querySelector(".dash-panel > div")?.innerText;
-    // Reaching both requirements freezes the successful run.
+    // Reaching both requirements unlocks saving but the run stays endless.
     for (let i = 0; i < 20; i++) advance(0.016);
     return {
       frames,
@@ -230,19 +229,12 @@ async (page) => {
       slides,
       distance: document.querySelector("#dash-distance").textContent,
       hearts: document.querySelector("#score").textContent,
-      completed: result,
-      stopped:
-        parseInt(document.querySelector("#dash-distance").textContent) === before,
+      endless:
+        parseInt(document.querySelector("#dash-distance").textContent) > before,
       sceneGeometry,
     };
   });
-  if (!run.stopped || !run.completed.includes("Przygoda ukończona"))
-    throw Error("Goal did not end in success: " + JSON.stringify(run));
-  if (
-    !run.completed.includes(run.distance) ||
-    !run.completed.includes(`${parseInt(run.hearts.replace(/\D/g, ""))} serduszek`)
-  )
-    throw Error("Completion screen misses actual result");
+  if (!run.endless) throw Error("Goal stopped the endless run");
   const scenes = Object.values(run.sceneGeometry);
   if (
     scenes.length !== 2 ||
@@ -266,11 +258,21 @@ async (page) => {
   run.laterSpeed = velocity(samples.at(-2), samples.at(-1));
   if (run.laterSpeed < run.startSpeed + 20)
     throw Error("No smooth acceleration");
-  await p.locator("#dash-save").tap();
+  if (run.startSpeed > 225 || run.startSpeed < 190)
+    throw Error("Mobile speed is not near 0.9x: " + run.startSpeed);
+  await p.locator("#dash-finish").tap();
+  const completion = await p.locator(".dialog").innerText();
+  if (!completion.includes(run.distance) || !completion.includes("serduszek"))
+    throw Error("Completion screen misses actual result");
   const stored = await p.evaluate(() =>
     JSON.parse(localStorage.getItem("wiki-anniversary-v1")),
   );
+  const best = await p.evaluate(() =>
+    JSON.parse(localStorage.getItem("wiki-anniversary-dash-best-v1")),
+  );
   if (!stored.includes("runner")) throw Error("Progress runner missing");
+  if (best.distance < 500 || best.hearts < 20)
+    throw Error("Best score missing: " + JSON.stringify(best));
   await p.locator(".dialog .primary").tap();
   await p.reload();
   await p.waitForSelector("#loading", { state: "detached" });
@@ -420,6 +422,7 @@ async (page) => {
     retry: true,
     run,
     progress: stored,
+    best,
     mobileLayouts,
     landscapeBoard,
     landscapeControls,

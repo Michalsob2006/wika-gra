@@ -12,7 +12,7 @@ import {
 import { sound, isMuted, toggleMute } from "./audio.js";
 import { catcher } from "./games/catcher.js";
 import { maze } from "./games/maze.js";
-import { wikaDash } from "./games/wika-dash.js?v=dash-goal-20";
+import { wikaDash } from "./games/wika-dash.js?v=mobile-fix-1";
 import { renderGameCard } from "./game-card.js";
 import { giftHunt } from "./games/gift-hunt.js";
 import { memory } from "./games/memory.js?v=memory-crop-2";
@@ -167,7 +167,7 @@ function openGame(id) {
   app.innerHTML = `<section class="game-shell"><div class="game-heading"><div><p class="eyebrow">${chapter}</p><h1>${g.name}</h1><p>${g.hint}</p></div><button id="home" class="quiet">Wróć do menu</button></div><div class="hud"><span id="score">Gotowa?</span><button id="restart" class="quiet" style="padding:0">Od nowa</button></div>${id === "memory" ? '<div id="memory" class="memory-grid"></div>' : '<div class="canvas-wrap"><canvas width="720" height="480" aria-label="Plansza gry"></canvas></div>'}<div class="controls">${["maze", "quest", "snake"].includes(id) ? '<div class="dpad">' : ""}${g.controls.map((c) => `<button class="control ${c}" data-control="${c}" aria-label="${{ left: "W lewo", right: "W prawo", up: "W górę", down: "W dół", jump: "Skok" }[c]}">${id === "snake" ? img("snake" + c[0].toUpperCase() + c.slice(1)) : assets[c] ? img(c) : c === "up" ? "↑" : "↓"}</button>`).join("")}${["maze", "quest", "snake"].includes(id) ? "</div>" : ""}</div>${id === "memory" ? "" : `<p class="hint">${["maze", "quest", "snake"].includes(id) ? "Strzałki / WASD" : id === "catcher" ? "← → / A D" : "← → / A D · spacja / ↑: skok"} · na telefonie użyj przycisków</p>`}</section>`;
   app.querySelector("#home").onclick = menu;
   app.querySelector("#restart").onclick = () => openGame(id);
-  cleanup = g.start({ root: app, win: () => win(id) });
+  cleanup = g.start({ root: app, win: (details) => win(id, details) });
   releaseSession = gameSession(app, id);
 }
 function confetti() {
@@ -182,7 +182,7 @@ function confetti() {
     setTimeout(() => el.remove(), 7000);
   }
 }
-function win(id) {
+function win(id, details = {}) {
   cleanup();
   cleanup = () => {};
   if (!progress.includes(id)) progress.push(id);
@@ -208,7 +208,7 @@ function win(id) {
     id === "duo"
       ? "Bonusowa przygoda ukończona"
       : `${mainGameIds.filter((gameId) => progress.includes(gameId)).length}/6 gier ukończonych`;
-  el.innerHTML = `<div class="dialog" role="dialog" aria-modal="true" aria-label="Gra ukończona">${img("wikaHappy")}<h2>${messages[id]}</h2><p>${summary}</p>${saved ? "" : "<p>Przeglądarka nie pozwala zapisać postępu. Pozostanie dostępny do zamknięcia strony.</p>"}<button class="primary">Wróć do menu</button></div>`;
+  el.innerHTML = `<div class="dialog" role="dialog" aria-modal="true" aria-label="Gra ukończona">${img("wikaHappy")}<h2>${details.title || messages[id]}</h2><p>${details.summary || summary}</p>${saved ? "" : "<p>Przeglądarka nie pozwala zapisać postępu. Pozostanie dostępny do zamknięcia strony.</p>"}<button class="primary">Wróć do menu</button></div>`;
   document.body.append(el);
   el.querySelector("button").onclick = menu;
   el.querySelector("button").focus();

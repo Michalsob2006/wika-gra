@@ -36,17 +36,16 @@ export const DASH_PACING = {
   maxSpeed: 493,
   jumpVelocity: 730,
   gravity: 1440,
-  heartMinSeconds: 1.55,
-  heartMaxSeconds: 2.05,
-  heartPairChance: 0.7,
+  heartMinSeconds: 0.95,
+  heartMaxSeconds: 1.2,
 };
-export const dashSpeed = ({ distance }) => {
+export const dashSpeed = ({ distance, speedScale = 1 }) => {
   const d = Math.max(0, distance);
   const multiplier =
     d <= 500
       ? 1 + 0.0009 * d + 0.000001 * d * d
       : 1.7 + 0.35 * (1 - Math.exp(-(d - 500) / (0.35 / 0.0019)));
-  return DASH_PACING.startSpeed * multiplier;
+  return DASH_PACING.startSpeed * multiplier * speedScale;
 };
 export function dashSpacingRange(s) {
   const progress = Math.min(
@@ -67,12 +66,16 @@ export function minimumDashTransition(from, to) {
 }
 const encounterTravel = (o) =>
   o.x + (o.kind === "crate" ? 16 : 26) - (HERO.x + 141);
-function travelAfterSeconds(travel, seconds) {
+function travelAfterSeconds(travel, seconds, speedScale = 1) {
   const steps = 64,
     dt = seconds / steps;
   for (let i = 0; i < steps; i++) {
-    const speed = dashSpeed({ distance: travel * 0.08 });
-    travel += dashSpeed({ distance: (travel + (speed * dt) / 2) * 0.08 }) * dt;
+    const speed = dashSpeed({ distance: travel * 0.08, speedScale });
+    travel +=
+      dashSpeed({
+        distance: (travel + (speed * dt) / 2) * 0.08,
+        speedScale,
+      }) * dt;
   }
   return travel;
 }
@@ -91,7 +94,11 @@ export function planDashObstacle(s, previous) {
     if (attempt === 15) seconds = Math.max(minimum, range.max);
   }
   const x =
-    travelAfterSeconds(encounterTravel(previous), seconds) +
+    travelAfterSeconds(
+      encounterTravel(previous),
+      seconds,
+      s.speedScale ?? 1,
+    ) +
     (HERO.x + 141) -
     (kind === "crate" ? 16 : 26);
   return { kind, x, spacingSeconds: seconds };
@@ -116,6 +123,12 @@ export function nextDashKind(s) {
   return kind;
 }
 export const crouching = (s) => s.grounded && s.crouchUntil > s.elapsed;
+export function mergeDashBest(current, distance, hearts) {
+  return {
+    distance: Math.max(0, Number(current?.distance) || 0, Math.floor(distance)),
+    hearts: Math.max(0, Number(current?.hearts) || 0, Math.floor(hearts)),
+  };
+}
 export function heroBox(s) {
   return crouching(s)
     ? { x: HERO.x + 70, y: s.feet - 64, w: 60, h: 57 }
@@ -188,15 +201,12 @@ export function stepDash(s, dt, { crouch = false } = {}) {
       s.nextObstacle = s.plannedObstacle.x - Math.max(DASH_W, s.viewWidth) - 60;
     }
     if (s.travel >= s.nextHeart) {
-      const startX = s.travel + Math.max(DASH_W, s.viewWidth) + 40,
-        count = s.random() < DASH_PACING.heartPairChance ? 2 : 1;
-      for (let index = 0; index < count; index++)
-        s.items.push({
-          x: startX + index * 54,
-          y: GROUND - 66,
-          w: 40,
-          h: 40,
-        });
+      s.items.push({
+        x: s.travel + Math.max(DASH_W, s.viewWidth) + 40,
+        y: GROUND - 66,
+        w: 40,
+        h: 40,
+      });
       const heartDelay =
         DASH_PACING.heartMinSeconds +
         s.random() *

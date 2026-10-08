@@ -15,6 +15,7 @@ import {
   planDashObstacle,
   GROUND,
   DASH_GOAL,
+  mergeDashBest,
 } from "../js/games/dash-state.js";
 import { renderGameCard } from "../js/game-card.js";
 import { assets, dashAssets } from "../js/assetConfig.js";
@@ -156,6 +157,21 @@ assert.ok(stepDash(score, 0.01).includes("heart"));
 assert.equal(score.hearts, 1);
 stepDash(score, 0.01);
 assert.equal(score.hearts, 1);
+const singleSpawn = makeDash(() => 0.5);
+singleSpawn.status = "playing";
+singleSpawn.items = [];
+singleSpawn.nextHeart = 0;
+singleSpawn.nextObstacle = Infinity;
+stepDash(singleSpawn, 0.01);
+assert.equal(singleSpawn.items.length, 1, "one heart per spawn event");
+assert.deepEqual(mergeDashBest({ distance: 900, hearts: 30 }, 500, 20), {
+  distance: 900,
+  hearts: 30,
+});
+assert.deepEqual(mergeDashBest({ distance: 500, hearts: 30 }, 900, 20), {
+  distance: 900,
+  hearts: 30,
+});
 const card = renderGameCard(
   { id: "runner", name: "Wika Dash", art: "coverDash", desc: "Test" },
   2,
@@ -190,7 +206,7 @@ for (const [distance, hearts, eligible] of [
   assert.equal(events.includes("goal"), eligible);
 }
 console.log(
-  "OK Wika Dash: 150 seeded 120s runs at 30/60/120 fps, jump/no air jump/landing, hold/release crouch, bird clearance, collisions/death freeze, pause, heart groups, goal500/20, bounded spawn/speed, cover cards and asset paths. Minimum hearts at40s:",
+  "OK Wika Dash: 150 seeded 120s runs at 30/60/120 fps, jump/no air jump/landing, hold/release crouch, bird clearance, collisions/death freeze, pause, single-heart spawning, goal500/20, bounded spawn/speed, cover cards and asset paths. Minimum hearts at40s:",
   leastHearts,
   "to",
   mostHearts,
@@ -267,6 +283,10 @@ for (let distance = 0; distance < 10000; distance++) {
   lastSpeed = speed;
 }
 assert.equal(dashSpeed(makeDash()), DASH_PACING.startSpeed);
+assert.equal(
+  dashSpeed({ distance: 0, speedScale: 0.9 }),
+  DASH_PACING.startSpeed * 0.9,
+);
 assert.ok(dashSpeed({ distance: 1000 }) > dashSpeed({ distance: 0 }) + 70);
 console.log("Dash random distribution:", {
   crates,

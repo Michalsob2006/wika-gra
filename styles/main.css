@@ -2302,6 +2302,47 @@ button.pressed,
     top: 113px;
     right: 20px;
   }
+  #app.game-view[data-game="maze"] .canvas-wrap {
+    flex: 0 0 auto;
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    background: #edf2e7;
+  }
+  #app.game-view[data-game="maze"] canvas {
+    width: 100% !important;
+    height: 100% !important;
+    max-height: none;
+  }
+  #app.game-view[data-game="maze"] .controls {
+    padding: 8px 0 2px;
+  }
+  #app.game-view[data-game="maze"] .dpad {
+    grid-template-columns: repeat(3, 78px);
+    gap: 10px;
+  }
+  #app.game-view[data-game="maze"] .dpad .control {
+    width: 78px;
+    height: 72px;
+    border-radius: 18px;
+  }
+  #app.game-view[data-game="maze"] .control img {
+    width: 62px;
+    height: 62px;
+  }
+  #app.game-view[data-game="runner"] .dash-controls {
+    width: min(100%, 360px);
+    justify-content: space-between;
+    align-self: center;
+    padding: 4px 0 2px;
+  }
+  #app.game-view[data-game="runner"] .dash-action {
+    width: 96px;
+    height: 92px;
+  }
+  #app.game-view[data-game="runner"] .dash-action img {
+    width: 78px;
+    height: 70px;
+  }
 }
 @media (hover: none) {
   button:hover {
@@ -2379,9 +2420,9 @@ button.pressed,
   .duo-touch {
     display: flex;
     position: fixed;
-    bottom: max(10px, env(safe-area-inset-bottom));
-    left: max(10px, env(safe-area-inset-left));
-    right: max(10px, env(safe-area-inset-right));
+    bottom: max(14px, env(safe-area-inset-bottom));
+    left: max(16px, env(safe-area-inset-left));
+    right: max(16px, env(safe-area-inset-right));
     justify-content: space-between;
     pointer-events: none;
   }
@@ -2390,7 +2431,7 @@ button.pressed,
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
     color: #a75784;
   }
   .duo-touch-group.michal {
@@ -2405,16 +2446,16 @@ button.pressed,
   }
   .duo-touch-group div {
     display: flex;
-    gap: 5px;
+    gap: 8px;
   }
   .duo-touch button {
-    width: 47px;
-    height: 44px;
-    border-radius: 12px;
+    width: 68px;
+    height: 66px;
+    border-radius: 16px;
     background: #fff0f5e8;
     border: 1px solid #ddb4c5;
     color: inherit;
-    font-size: 23px;
+    font-size: 30px;
     touch-action: none;
   }
   .duo-touch-group.michal button {
@@ -2569,11 +2610,11 @@ body.game-active.touch-input button:focus {
     padding: 2px 0;
   }
   #app.game-view .dash-controls .dash-action {
-    min-height: 60px;
-    height: 60px;
+    min-height: 68px;
+    height: 68px;
   }
   #app.game-view .dash-controls .dash-action img {
-    width: 52px;
-    height: 47px;
+    width: 58px;
+    height: 54px;
   }
 }
